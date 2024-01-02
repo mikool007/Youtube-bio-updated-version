@@ -1,0 +1,20 @@
+//abstract files
+@import "./abstract/function", "./abstract/mixins", "./abstract/variables";
+
+// base files 
+@import "./base/normalize", "./base/reset", "./base/typography";
+
+// component files 
+@import "./components/button", "./components/card";
+
+// layout cards
+@import "./layout/footer", "./layout/header";
+
+// pages files 
+@import "./pages/home", "./pages/register";
+
+// theme files 
+@import "./theme/theme.scss";
+
+// vendor files 
+@import "./vendors/bootstrap";

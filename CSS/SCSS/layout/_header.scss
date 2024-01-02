@@ -1,0 +1,27 @@
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.38);
+    backdrop-filter: blur(71px);
+}
+
+
+.header-image img{
+    height: 50px; 
+    max-width: 100%;
+}
+
+
+
+// li{
+//     margin-left: 10px auto;
+// }
+
+// li:first-child{
+//     margin-left: 0;
+//     margin-right: auto;
+// }
